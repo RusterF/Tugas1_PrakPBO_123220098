@@ -35,7 +35,7 @@ public class TimF1 {
     }
     
     public void infoTim() {
-        System.out.println("Nama Tim: " + namaTim);
-        System.out.println("Basis: " + basis);
+        System.out.println("Nama Tim \t: " + namaTim);
+        System.out.println("Basis \t\t: " + basis);
     }
 }
