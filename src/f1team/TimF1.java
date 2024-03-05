@@ -10,33 +10,32 @@ package f1team;
  * @author LENOVO
  */
 public class TimF1 {
-
     private String namaTim;
-    private String markas;
-
+    private String basis;
+    
     public TimF1(String namaTim, String basis) {
         this.namaTim = namaTim;
-        this.markas = basis;
+        this.basis = basis;
     }
-
+    
     public String getNamaTim() {
         return namaTim;
     }
-
+    
     public void setNamaTim(String namaTim) {
         this.namaTim = namaTim;
     }
-
+    
     public String getBasis() {
-        return markas;
+        return basis;
     }
-
+    
     public void setBasis(String basis) {
-        this.markas = basis;
+        this.basis = basis;
     }
-
+    
     public void infoTim() {
-        System.out.println("Nama Tim \t: " + namaTim);
-        System.out.println("Markas \t\t: " + markas);
+        System.out.println("Nama Tim: " + namaTim);
+        System.out.println("Basis: " + basis);
     }
 }
